@@ -17,7 +17,7 @@
 	function plugin_setting_string() {
 		echo '<textarea name="onelogin_saml_certificate" id="onelogin_saml_certificate" style="width:600px; height:220px; font-size:12px; font-family:courier,arial,sans-serif;">';
 		echo get_option('onelogin_saml_certificate');
-		echo '</textarea>';	 	
+		echo '</textarea>';
 	}
 	
 	function plugin_section_text() {}
